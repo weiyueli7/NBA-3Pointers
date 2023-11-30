@@ -1,0 +1,43 @@
+\begin{center}
+\begin{tabular}{lclc}
+\toprule
+\textbf{Dep. Variable:}    & next\_year\_salary & \textbf{  R-squared:         } &     0.461   \\
+\textbf{Model:}            &        OLS         & \textbf{  Adj. R-squared:    } &     0.460   \\
+\textbf{Method:}           &   Least Squares    & \textbf{  F-statistic:       } &     358.8   \\
+\textbf{Date:}             &  Wed, 29 Nov 2023  & \textbf{  Prob (F-statistic):} &     0.00    \\
+\textbf{Time:}             &      17:50:40      & \textbf{  Log-Likelihood:    } &   -64742.   \\
+\textbf{No. Observations:} &         6391       & \textbf{  AIC:               } & 1.295e+05   \\
+\textbf{Df Residuals:}     &         6381       & \textbf{  BIC:               } & 1.296e+05   \\
+\textbf{Df Model:}         &            9       & \textbf{                     } &             \\
+\textbf{Covariance Type:}  &        HC1         & \textbf{                     } &             \\
+\bottomrule
+\end{tabular}
+\begin{tabular}{lcccccc}
+                       & \textbf{coef} & \textbf{std err} & \textbf{z} & \textbf{P$> |$z$|$} & \textbf{[0.025} & \textbf{0.975]}  \\
+\midrule
+\textbf{const}         &   -7537.5534  &      611.820     &   -12.320  &         0.000        &    -8736.698    &    -6338.409     \\
+\textbf{GS}            &      85.3645  &        3.027     &    28.203  &         0.000        &       79.432    &       91.297     \\
+\textbf{3PPerMP}       &    2.812e+04  &     6318.661     &     4.450  &         0.000        &     1.57e+04    &     4.05e+04     \\
+\textbf{PTSPerMP}      &    2.163e+04  &      885.606     &    24.422  &         0.000        &     1.99e+04    &     2.34e+04     \\
+\textbf{TRBPerMP}      &    2.774e+04  &     1606.120     &    17.270  &         0.000        &     2.46e+04    &     3.09e+04     \\
+\textbf{ASTPerMP}      &    2.965e+04  &     2156.886     &    13.747  &         0.000        &     2.54e+04    &     3.39e+04     \\
+\textbf{PFPerMP}       &   -2.535e+04  &     2953.222     &    -8.583  &         0.000        &    -3.11e+04    &    -1.96e+04     \\
+\textbf{STLPerMP}      &   -1.911e+04  &     6754.641     &    -2.829  &         0.005        &    -3.23e+04    &    -5868.630     \\
+\textbf{3PPerMPxTrend} &    4799.3942  &      530.597     &     9.045  &         0.000        &     3759.443    &     5839.346     \\
+\textbf{Trend}         &     -76.4910  &       20.871     &    -3.665  &         0.000        &     -117.397    &      -35.585     \\
+\bottomrule
+\end{tabular}
+\begin{tabular}{lclc}
+\textbf{Omnibus:}       & 894.111 & \textbf{  Durbin-Watson:     } &    0.931  \\
+\textbf{Prob(Omnibus):} &   0.000 & \textbf{  Jarque-Bera (JB):  } & 1790.937  \\
+\textbf{Skew:}          &   0.865 & \textbf{  Prob(JB):          } &     0.00  \\
+\textbf{Kurtosis:}      &   4.931 & \textbf{  Cond. No.          } & 4.27e+03  \\
+\bottomrule
+\end{tabular}
+%\caption{OLS Regression Results}
+\end{center}
+
+Notes: \newline
+ [1] Standard Errors are heteroscedasticity robust (HC1) \newline
+ [2] The condition number is large, 4.27e+03. This might indicate that there are \newline
+ strong multicollinearity or other numerical problems.
