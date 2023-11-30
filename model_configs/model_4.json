@@ -1,0 +1,7 @@
+{
+    "independent_vars": [
+        "GS", "3PPerMP", "PTSPerMP", "TRBPerMP", "ASTPerMP", "PFPerMP", "STLPerMP",
+        "3PPerMPxTrend", "Trend"
+    ],
+    "dependent_var": "next_year_salary"
+}

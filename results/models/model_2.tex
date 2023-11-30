@@ -1,0 +1,85 @@
+\begin{center}
+\begin{tabular}{lclc}
+\toprule
+\textbf{Dep. Variable:}       & next\_year\_salary & \textbf{  R-squared:         } &     0.472   \\
+\textbf{Model:}               &        OLS         & \textbf{  Adj. R-squared:    } &     0.467   \\
+\textbf{Method:}              &   Least Squares    & \textbf{  F-statistic:       } &     70.04   \\
+\textbf{Date:}                &  Wed, 29 Nov 2023  & \textbf{  Prob (F-statistic):} &     0.00    \\
+\textbf{Time:}                &      16:19:47      & \textbf{  Log-Likelihood:    } &   -64679.   \\
+\textbf{No. Observations:}    &         6391       & \textbf{  AIC:               } & 1.295e+05   \\
+\textbf{Df Residuals:}        &         6341       & \textbf{  BIC:               } & 1.298e+05   \\
+\textbf{Df Model:}            &           49       & \textbf{                     } &             \\
+\textbf{Covariance Type:}     &        HC1         & \textbf{                     } &             \\
+\bottomrule
+\end{tabular}
+\begin{tabular}{lcccccc}
+                              & \textbf{coef} & \textbf{std err} & \textbf{z} & \textbf{P$> |$z$|$} & \textbf{[0.025} & \textbf{0.975]}  \\
+\midrule
+\textbf{const}                &   -7403.8167  &      707.096     &   -10.471  &         0.000        &    -8789.699    &    -6017.935     \\
+\textbf{GS}                   &      84.9168  &        3.001     &    28.298  &         0.000        &       79.035    &       90.798     \\
+\textbf{3PPerMP}              &    3.676e+04  &     1.41e+04     &     2.609  &         0.009        &     9142.154    &     6.44e+04     \\
+\textbf{PTSPerMP}             &    2.154e+04  &      883.850     &    24.367  &         0.000        &     1.98e+04    &     2.33e+04     \\
+\textbf{TRBPerMP}             &    2.707e+04  &     1597.435     &    16.945  &         0.000        &     2.39e+04    &     3.02e+04     \\
+\textbf{ASTPerMP}             &     2.92e+04  &     2141.427     &    13.634  &         0.000        &      2.5e+04    &     3.34e+04     \\
+\textbf{PFPerMP}              &   -2.622e+04  &     2998.639     &    -8.744  &         0.000        &    -3.21e+04    &    -2.03e+04     \\
+\textbf{STLPerMP}             &   -2.005e+04  &     6725.279     &    -2.981  &         0.003        &    -3.32e+04    &    -6869.355     \\
+\textbf{season\_2001}         &    -517.3600  &      558.973     &    -0.926  &         0.355        &    -1612.927    &      578.207     \\
+\textbf{season\_2002}         &      70.3124  &      573.108     &     0.123  &         0.902        &    -1052.959    &     1193.584     \\
+\textbf{season\_2003}         &     354.4270  &      541.450     &     0.655  &         0.513        &     -706.795    &     1415.649     \\
+\textbf{season\_2004}         &     585.2341  &      556.435     &     1.052  &         0.293        &     -505.358    &     1675.826     \\
+\textbf{season\_2005}         &     224.6516  &      530.038     &     0.424  &         0.672        &     -814.204    &     1263.507     \\
+\textbf{season\_2006}         &    -354.0406  &      537.779     &    -0.658  &         0.510        &    -1408.068    &      699.986     \\
+\textbf{season\_2007}         &    -801.5700  &      550.282     &    -1.457  &         0.145        &    -1880.103    &      276.963     \\
+\textbf{season\_2008}         &    -562.6291  &      576.321     &    -0.976  &         0.329        &    -1692.197    &      566.939     \\
+\textbf{season\_2009}         &    -974.3530  &      578.336     &    -1.685  &         0.092        &    -2107.871    &      159.165     \\
+\textbf{season\_2010}         &    -789.4416  &      536.021     &    -1.473  &         0.141        &    -1840.023    &      261.140     \\
+\textbf{season\_2011}         &    -509.2139  &      529.137     &    -0.962  &         0.336        &    -1546.303    &      527.875     \\
+\textbf{season\_2012}         &   -1285.1634  &      547.903     &    -2.346  &         0.019        &    -2359.034    &     -211.293     \\
+\textbf{season\_2013}         &   -1157.3917  &      568.343     &    -2.036  &         0.042        &    -2271.324    &      -43.459     \\
+\textbf{season\_2014}         &   -1133.6484  &      627.013     &    -1.808  &         0.071        &    -2362.572    &       95.275     \\
+\textbf{season\_2015}         &     368.0038  &      769.401     &     0.478  &         0.632        &    -1139.994    &     1876.001     \\
+\textbf{season\_2016}         &    1321.1281  &      863.950     &     1.529  &         0.126        &     -372.182    &     3014.438     \\
+\textbf{season\_2017}         &    -428.9202  &      905.609     &    -0.474  &         0.636        &    -2203.882    &     1346.042     \\
+\textbf{season\_2018}         &   -1087.7715  &     1049.561     &    -1.036  &         0.300        &    -3144.874    &      969.331     \\
+\textbf{season\_2019}         &   -1436.8471  &      991.577     &    -1.449  &         0.147        &    -3380.303    &      506.609     \\
+\textbf{season\_2020}         &   -1749.8059  &      896.625     &    -1.952  &         0.051        &    -3507.158    &        7.546     \\
+\textbf{season\_2021}         &   -2090.1935  &      985.130     &    -2.122  &         0.034        &    -4021.012    &     -159.375     \\
+\textbf{season\_2022}         &    3.194e-11  &      7.1e-11     &     0.450  &         0.653        &    -1.07e-10    &     1.71e-10     \\
+\textbf{3PPerMPxseason\_2001} &    1.381e+04  &     1.93e+04     &     0.717  &         0.474        &     -2.4e+04    &     5.16e+04     \\
+\textbf{3PPerMPxseason\_2002} &     2.46e+04  &     2.14e+04     &     1.152  &         0.249        &    -1.73e+04    &     6.65e+04     \\
+\textbf{3PPerMPxseason\_2003} &    7772.2717  &     1.83e+04     &     0.424  &         0.672        &    -2.82e+04    &     4.37e+04     \\
+\textbf{3PPerMPxseason\_2004} &    8294.8153  &     1.85e+04     &     0.447  &         0.655        &    -2.81e+04    &     4.46e+04     \\
+\textbf{3PPerMPxseason\_2005} &    2.271e+04  &     1.85e+04     &     1.229  &         0.219        &    -1.35e+04    &     5.89e+04     \\
+\textbf{3PPerMPxseason\_2006} &    3.599e+04  &     1.79e+04     &     2.006  &         0.045        &      818.660    &     7.12e+04     \\
+\textbf{3PPerMPxseason\_2007} &    2.728e+04  &     1.74e+04     &     1.571  &         0.116        &    -6744.616    &     6.13e+04     \\
+\textbf{3PPerMPxseason\_2008} &    2.666e+04  &     1.83e+04     &     1.454  &         0.146        &    -9281.440    &     6.26e+04     \\
+\textbf{3PPerMPxseason\_2009} &    2.884e+04  &     1.92e+04     &     1.503  &         0.133        &    -8764.830    &     6.64e+04     \\
+\textbf{3PPerMPxseason\_2010} &      3.1e+04  &     1.75e+04     &     1.767  &         0.077        &    -3383.876    &     6.54e+04     \\
+\textbf{3PPerMPxseason\_2011} &    2.327e+04  &     1.71e+04     &     1.364  &         0.173        &    -1.02e+04    &     5.67e+04     \\
+\textbf{3PPerMPxseason\_2012} &    2.098e+04  &     1.69e+04     &     1.244  &         0.214        &    -1.21e+04    &      5.4e+04     \\
+\textbf{3PPerMPxseason\_2013} &    1.414e+04  &     1.72e+04     &     0.825  &         0.410        &    -1.95e+04    &     4.78e+04     \\
+\textbf{3PPerMPxseason\_2014} &    4.156e+04  &     1.83e+04     &     2.272  &         0.023        &     5714.430    &     7.74e+04     \\
+\textbf{3PPerMPxseason\_2015} &    4.739e+04  &     2.14e+04     &     2.219  &         0.027        &     5523.454    &     8.92e+04     \\
+\textbf{3PPerMPxseason\_2016} &    5.161e+04  &     2.23e+04     &     2.319  &         0.020        &     7982.370    &     9.52e+04     \\
+\textbf{3PPerMPxseason\_2017} &    7.657e+04  &     2.28e+04     &     3.356  &         0.001        &     3.18e+04    &     1.21e+05     \\
+\textbf{3PPerMPxseason\_2018} &    8.992e+04  &     2.47e+04     &     3.639  &         0.000        &     4.15e+04    &     1.38e+05     \\
+\textbf{3PPerMPxseason\_2019} &    9.566e+04  &     2.29e+04     &     4.171  &         0.000        &     5.07e+04    &     1.41e+05     \\
+\textbf{3PPerMPxseason\_2020} &    9.109e+04  &     2.05e+04     &     4.450  &         0.000        &      5.1e+04    &     1.31e+05     \\
+\textbf{3PPerMPxseason\_2021} &    9.318e+04  &     2.27e+04     &     4.104  &         0.000        &     4.87e+04    &     1.38e+05     \\
+\textbf{3PPerMPxseason\_2022} &            0  &            0     &       nan  &           nan        &            0    &            0     \\
+\bottomrule
+\end{tabular}
+\begin{tabular}{lclc}
+\textbf{Omnibus:}       & 843.526 & \textbf{  Durbin-Watson:     } &    0.942  \\
+\textbf{Prob(Omnibus):} &   0.000 & \textbf{  Jarque-Bera (JB):  } & 1722.236  \\
+\textbf{Skew:}          &   0.816 & \textbf{  Prob(JB):          } &     0.00  \\
+\textbf{Kurtosis:}      &   4.950 & \textbf{  Cond. No.          } & 1.45e+16  \\
+\bottomrule
+\end{tabular}
+%\caption{OLS Regression Results}
+\end{center}
+
+Notes: \newline
+ [1] Standard Errors are heteroscedasticity robust (HC1) \newline
+ [2] The smallest eigenvalue is 5.82e-26. This might indicate that there are \newline
+ strong multicollinearity problems or that the design matrix is singular.

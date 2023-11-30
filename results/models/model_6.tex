@@ -1,0 +1,51 @@
+\begin{center}
+\begin{tabular}{lclc}
+\toprule
+\textbf{Dep. Variable:}             & next\_year\_salary & \textbf{  R-squared:         } &     0.484   \\
+\textbf{Model:}                     &        OLS         & \textbf{  Adj. R-squared:    } &     0.483   \\
+\textbf{Method:}                    &   Least Squares    & \textbf{  F-statistic:       } &     210.8   \\
+\textbf{Date:}                      &  Wed, 29 Nov 2023  & \textbf{  Prob (F-statistic):} &     0.00    \\
+\textbf{Time:}                      &      16:19:47      & \textbf{  Log-Likelihood:    } &   -64602.   \\
+\textbf{No. Observations:}          &         6391       & \textbf{  AIC:               } & 1.292e+05   \\
+\textbf{Df Residuals:}              &         6373       & \textbf{  BIC:               } & 1.294e+05   \\
+\textbf{Df Model:}                  &           17       & \textbf{                     } &             \\
+\textbf{Covariance Type:}           &        HC1         & \textbf{                     } &             \\
+\bottomrule
+\end{tabular}
+\begin{tabular}{lcccccc}
+                                    & \textbf{coef} & \textbf{std err} & \textbf{z} & \textbf{P$> |$z$|$} & \textbf{[0.025} & \textbf{0.975]}  \\
+\midrule
+\textbf{const}                      &   -3327.8566  &      740.943     &    -4.491  &         0.000        &    -4780.078    &    -1875.636     \\
+\textbf{GS}                         &      78.3078  &        3.033     &    25.821  &         0.000        &       72.364    &       84.252     \\
+\textbf{3PPerMP}                    &    3.378e+04  &     6300.953     &     5.362  &         0.000        &     2.14e+04    &     4.61e+04     \\
+\textbf{PTSPerMP}                   &    2.069e+04  &      871.685     &    23.738  &         0.000        &      1.9e+04    &     2.24e+04     \\
+\textbf{TRBPerMP}                   &    1.574e+04  &     1962.310     &     8.023  &         0.000        &     1.19e+04    &     1.96e+04     \\
+\textbf{ASTPerMP}                   &    4.789e+04  &     2786.069     &    17.189  &         0.000        &     4.24e+04    &     5.33e+04     \\
+\textbf{PFPerMP}                    &   -3.098e+04  &     3025.681     &   -10.239  &         0.000        &    -3.69e+04    &     -2.5e+04     \\
+\textbf{STLPerMP}                   &   -3816.8435  &     6999.821     &    -0.545  &         0.586        &    -1.75e+04    &     9902.553     \\
+\textbf{position\_PG}               &   -7861.2796  &      539.215     &   -14.579  &         0.000        &    -8918.122    &    -6804.437     \\
+\textbf{position\_SG}               &   -3467.2762  &      404.614     &    -8.569  &         0.000        &    -4260.305    &    -2674.247     \\
+\textbf{position\_SF}               &   -2723.1888  &      356.621     &    -7.636  &         0.000        &    -3422.153    &    -2024.225     \\
+\textbf{position\_PF}               &   -1578.9882  &      252.281     &    -6.259  &         0.000        &    -2073.449    &    -1084.527     \\
+\textbf{3PPerMPxPosition\_PFxTrend} &    2749.7311  &      822.740     &     3.342  &         0.001        &     1137.191    &     4362.271     \\
+\textbf{3PPerMPxPosition\_PGxTrend} &    5757.5828  &      933.266     &     6.169  &         0.000        &     3928.416    &     7586.750     \\
+\textbf{3PPerMPxPosition\_SFxTrend} &    3310.1616  &      839.923     &     3.941  &         0.000        &     1663.942    &     4956.381     \\
+\textbf{3PPerMPxPosition\_SGxTrend} &    1947.1980  &      760.521     &     2.560  &         0.010        &      456.604    &     3437.792     \\
+\textbf{3PPerMPxTrend}              &    1612.4624  &      834.584     &     1.932  &         0.053        &      -23.292    &     3248.216     \\
+\textbf{Trend}                      &     -87.5943  &       20.262     &    -4.323  &         0.000        &     -127.308    &      -47.881     \\
+\bottomrule
+\end{tabular}
+\begin{tabular}{lclc}
+\textbf{Omnibus:}       & 835.784 & \textbf{  Durbin-Watson:     } &    0.964  \\
+\textbf{Prob(Omnibus):} &   0.000 & \textbf{  Jarque-Bera (JB):  } & 1683.038  \\
+\textbf{Skew:}          &   0.815 & \textbf{  Prob(JB):          } &     0.00  \\
+\textbf{Kurtosis:}      &   4.914 & \textbf{  Cond. No.          } & 4.37e+03  \\
+\bottomrule
+\end{tabular}
+%\caption{OLS Regression Results}
+\end{center}
+
+Notes: \newline
+ [1] Standard Errors are heteroscedasticity robust (HC1) \newline
+ [2] The condition number is large, 4.37e+03. This might indicate that there are \newline
+ strong multicollinearity or other numerical problems.

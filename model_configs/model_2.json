@@ -1,0 +1,18 @@
+{
+    "independent_vars": [
+        "GS", "3PPerMP", "PTSPerMP", "TRBPerMP", "ASTPerMP", "PFPerMP", "STLPerMP",
+        "season_2001", "season_2002", "season_2003", "season_2004", "season_2005", 
+        "season_2006", "season_2007", "season_2008", "season_2009", "season_2010", 
+        "season_2011", "season_2012", "season_2013", "season_2014", "season_2015", 
+        "season_2016", "season_2017", "season_2018", "season_2019", "season_2020", 
+        "season_2021", "season_2022", "3PPerMPxseason_2001", "3PPerMPxseason_2002", 
+        "3PPerMPxseason_2003", "3PPerMPxseason_2004", "3PPerMPxseason_2005", 
+        "3PPerMPxseason_2006", "3PPerMPxseason_2007", "3PPerMPxseason_2008", 
+        "3PPerMPxseason_2009", "3PPerMPxseason_2010", "3PPerMPxseason_2011", 
+        "3PPerMPxseason_2012", "3PPerMPxseason_2013", "3PPerMPxseason_2014", 
+        "3PPerMPxseason_2015", "3PPerMPxseason_2016", "3PPerMPxseason_2017", 
+        "3PPerMPxseason_2018", "3PPerMPxseason_2019", "3PPerMPxseason_2020", 
+        "3PPerMPxseason_2021", "3PPerMPxseason_2022"
+    ],
+    "dependent_var": "next_year_salary"
+}
