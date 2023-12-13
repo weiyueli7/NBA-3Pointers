@@ -16,7 +16,10 @@ def OLS(df, independent_vars, dependent_var, name):
     # Adding a constant term for the intercept
     X = sm.add_constant(X)
 
-    model = sm.OLS(y, X).fit(cov_type='HC1')
+    # model = sm.OLS(y, X).fit(cov_type='HC1')
+
+    # To address autocorrelation across years for players, cluster the standard errors by player
+    model = sm.OLS(y, X).fit().get_robustcov_results(cov_type='cluster', groups=new_df['Player'])
 
     print(model.summary())
 

@@ -74,8 +74,6 @@ def main():
     viz_three_point_evolution(df)
     viz_salary_cap()
 
-    
-
 
     # Run Models
     

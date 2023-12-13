@@ -111,7 +111,7 @@ def process_year(year):
 def process_espn_salary(sea):
     sal = pd.read_csv(f'data/espn_salaries/salary_{sea}.csv', skiprows=[0] )
     sal = sal[(sal['NAME']!= 'NAME') & (sal['TEAM'] != 'TEAM')]
-    sal['salary'] = sal['SALARY'].str.replace('$', '').str.replace(',', '').astype(float) / 1_000
+    sal['salary'] = sal['SALARY'].str.replace('$', '').str.replace(',', '').astype(float) / 100_000
     sal['name'] = sal['NAME'].str.split(',').str[0]
     sal['position'] = sal['NAME'].str.split(',').str[1]
     sal['season'] = sea
