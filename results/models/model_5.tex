@@ -1,45 +1,53 @@
 \begin{center}
 \begin{tabular}{lclc}
 \toprule
-\textbf{Dep. Variable:}             &      salary      & \textbf{  R-squared:         } &     0.401   \\
-\textbf{Model:}                     &       OLS        & \textbf{  Adj. R-squared:    } &     0.400   \\
-\textbf{Method:}                    &  Least Squares   & \textbf{  F-statistic:       } &     77.00   \\
-\textbf{Date:}                      & Wed, 13 Dec 2023 & \textbf{  Prob (F-statistic):} & 1.58e-191   \\
-\textbf{Time:}                      &     02:58:17     & \textbf{  Log-Likelihood:    } &   -80381.   \\
+\textbf{Dep. Variable:}             &      salary      & \textbf{  R-squared:         } &     0.402   \\
+\textbf{Model:}                     &       OLS        & \textbf{  Adj. R-squared:    } &     0.401   \\
+\textbf{Method:}                    &  Least Squares   & \textbf{  F-statistic:       } &     54.00   \\
+\textbf{Date:}                      & Fri, 15 Dec 2023 & \textbf{  Prob (F-statistic):} & 5.47e-190   \\
+\textbf{Time:}                      &     00:05:54     & \textbf{  Log-Likelihood:    } &   -80371.   \\
 \textbf{No. Observations:}          &        7934      & \textbf{  AIC:               } & 1.608e+05   \\
-\textbf{Df Residuals:}              &        7916      & \textbf{  BIC:               } & 1.609e+05   \\
-\textbf{Df Model:}                  &          17      & \textbf{                     } &             \\
+\textbf{Df Residuals:}              &        7908      & \textbf{  BIC:               } & 1.610e+05   \\
+\textbf{Df Model:}                  &          25      & \textbf{                     } &             \\
 \textbf{Covariance Type:}           &     cluster      & \textbf{                     } &             \\
 \bottomrule
 \end{tabular}
 \begin{tabular}{lcccccc}
                                     & \textbf{coef} & \textbf{std err} & \textbf{t} & \textbf{P$> |$t$|$} & \textbf{[0.025} & \textbf{0.975]}  \\
 \midrule
-\textbf{const}                      &   -1027.6998  &      984.093     &    -1.044  &         0.297        &    -2958.002    &      902.603     \\
-\textbf{GS}                         &      69.5627  &        3.897     &    17.851  &         0.000        &       61.919    &       77.207     \\
-\textbf{3PPerMP}                    &    2.335e+04  &     9588.736     &     2.435  &         0.015        &     4539.657    &     4.22e+04     \\
-\textbf{PTSPerMP}                   &    1.515e+04  &     1289.800     &    11.745  &         0.000        &     1.26e+04    &     1.77e+04     \\
-\textbf{TRBPerMP}                   &    1.149e+04  &     2660.606     &     4.318  &         0.000        &     6270.141    &     1.67e+04     \\
-\textbf{ASTPerMP}                   &    4.885e+04  &     4362.253     &    11.199  &         0.000        &     4.03e+04    &     5.74e+04     \\
-\textbf{PFPerMP}                    &   -2.497e+04  &     3611.282     &    -6.915  &         0.000        &    -3.21e+04    &    -1.79e+04     \\
-\textbf{STLPerMP}                   &   -1.551e+04  &     8124.681     &    -1.910  &         0.056        &    -3.15e+04    &      422.011     \\
-\textbf{position\_PG}               &   -7880.9634  &      714.176     &   -11.035  &         0.000        &    -9281.822    &    -6480.105     \\
-\textbf{position\_SG}               &   -3467.7666  &      484.297     &    -7.160  &         0.000        &    -4417.718    &    -2517.815     \\
-\textbf{position\_SF}               &   -2642.1030  &      413.888     &    -6.384  &         0.000        &    -3453.946    &    -1830.260     \\
-\textbf{position\_PF}               &   -1373.3014  &      296.267     &    -4.635  &         0.000        &    -1954.430    &     -792.173     \\
-\textbf{3PPerMPxPosition\_PFxTrend} &    1730.7205  &      942.109     &     1.837  &         0.066        &     -117.230    &     3578.671     \\
-\textbf{3PPerMPxPosition\_PGxTrend} &    4356.3947  &     1212.567     &     3.593  &         0.000        &     1977.940    &     6734.850     \\
-\textbf{3PPerMPxPosition\_SFxTrend} &    2035.4709  &     1078.843     &     1.887  &         0.059        &      -80.684    &     4151.626     \\
-\textbf{3PPerMPxPosition\_SGxTrend} &     760.0384  &      925.553     &     0.821  &         0.412        &    -1055.437    &     2575.513     \\
-\textbf{3PPerMPxTrend}              &    1857.7061  &     1125.795     &     1.650  &         0.099        &     -350.545    &     4065.957     \\
-\textbf{Trend}                      &     -70.6330  &       28.506     &    -2.478  &         0.013        &     -126.548    &      -14.718     \\
+\textbf{const}                      &    -934.4784  &     1001.165     &    -0.933  &         0.351        &    -2898.267    &     1029.310     \\
+\textbf{GS}                         &      69.3655  &        3.920     &    17.696  &         0.000        &       61.677    &       77.054     \\
+\textbf{3PPerMP}                    &   -2.342e+04  &     2.78e+04     &    -0.842  &         0.400        &     -7.8e+04    &     3.12e+04     \\
+\textbf{PTSPerMP}                   &    1.525e+04  &     1299.665     &    11.737  &         0.000        &     1.27e+04    &     1.78e+04     \\
+\textbf{TRBPerMP}                   &    1.107e+04  &     2659.192     &     4.161  &         0.000        &     5849.614    &     1.63e+04     \\
+\textbf{ASTPerMP}                   &    4.894e+04  &     4422.131     &    11.068  &         0.000        &     4.03e+04    &     5.76e+04     \\
+\textbf{PFPerMP}                    &   -2.514e+04  &     3583.502     &    -7.016  &         0.000        &    -3.22e+04    &    -1.81e+04     \\
+\textbf{STLPerMP}                   &   -1.472e+04  &     8072.023     &    -1.823  &         0.068        &    -3.06e+04    &     1115.017     \\
+\textbf{Trend}                      &     -64.6726  &       41.420     &    -1.561  &         0.119        &     -145.918    &       16.573     \\
+\textbf{3PPerMPxTrend}              &    4249.1288  &     1967.291     &     2.160  &         0.031        &      390.280    &     8107.977     \\
+\textbf{position\_PG}               &   -6788.3061  &     1131.397     &    -6.000  &         0.000        &    -9007.546    &    -4569.066     \\
+\textbf{position\_SG}               &   -4500.8732  &      820.286     &    -5.487  &         0.000        &    -6109.868    &    -2891.879     \\
+\textbf{position\_SF}               &   -3375.2296  &      742.700     &    -4.545  &         0.000        &    -4832.039    &    -1918.420     \\
+\textbf{position\_PF}               &   -1197.7778  &      582.298     &    -2.057  &         0.040        &    -2339.957    &      -55.598     \\
+\textbf{3PPerMPxPosition\_PF}       &    5.574e+04  &     2.78e+04     &     2.003  &         0.045        &     1164.077    &      1.1e+05     \\
+\textbf{3PPerMPxPosition\_PG}       &     2.09e+04  &     3.62e+04     &     0.578  &         0.563        &       -5e+04    &     9.18e+04     \\
+\textbf{3PPerMPxPosition\_SF}       &    5.678e+04  &     2.99e+04     &     1.897  &         0.058        &    -1918.044    &     1.15e+05     \\
+\textbf{3PPerMPxPosition\_SG}       &    7.001e+04  &     3.15e+04     &     2.219  &         0.027        &     8137.910    &     1.32e+05     \\
+\textbf{Position\_PFxTrend}         &     -37.2419  &       58.909     &    -0.632  &         0.527        &     -152.793    &       78.309     \\
+\textbf{Position\_PGxTrend}         &    -119.8330  &      107.084     &    -1.119  &         0.263        &     -329.878    &       90.212     \\
+\textbf{Position\_SFxTrend}         &      77.3926  &       83.082     &     0.932  &         0.352        &      -85.573    &      240.358     \\
+\textbf{Position\_SGxTrend}         &      65.4787  &       69.894     &     0.937  &         0.349        &      -71.619    &      202.576     \\
+\textbf{3PPerMPxPosition\_PFxTrend} &    -831.9872  &     2151.519     &    -0.387  &         0.699        &    -5052.199    &     3388.224     \\
+\textbf{3PPerMPxPosition\_PGxTrend} &    4161.8336  &     3019.914     &     1.378  &         0.168        &    -1761.739    &     1.01e+04     \\
+\textbf{3PPerMPxPosition\_SFxTrend} &   -1664.4125  &     2556.805     &    -0.651  &         0.515        &    -6679.595    &     3350.770     \\
+\textbf{3PPerMPxPosition\_SGxTrend} &   -3183.5259  &     2278.077     &    -1.397  &         0.162        &    -7651.983    &     1284.931     \\
 \bottomrule
 \end{tabular}
 \begin{tabular}{lclc}
-\textbf{Omnibus:}       & 1565.437 & \textbf{  Durbin-Watson:     } &    0.816  \\
-\textbf{Prob(Omnibus):} &   0.000  & \textbf{  Jarque-Bera (JB):  } & 3823.665  \\
-\textbf{Skew:}          &   1.095  & \textbf{  Prob(JB):          } &     0.00  \\
-\textbf{Kurtosis:}      &   5.602  & \textbf{  Cond. No.          } & 4.05e+03  \\
+\textbf{Omnibus:}       & 1571.145 & \textbf{  Durbin-Watson:     } &    0.818  \\
+\textbf{Prob(Omnibus):} &   0.000  & \textbf{  Jarque-Bera (JB):  } & 3898.527  \\
+\textbf{Skew:}          &   1.093  & \textbf{  Prob(JB):          } &     0.00  \\
+\textbf{Kurtosis:}      &   5.649  & \textbf{  Cond. No.          } & 3.22e+04  \\
 \bottomrule
 \end{tabular}
 %\caption{OLS Regression Results}
@@ -47,5 +55,5 @@
 
 Notes: \newline
  [1] Standard Errors are robust to cluster correlation (cluster) \newline
- [2] The condition number is large, 4.05e+03. This might indicate that there are \newline
+ [2] The condition number is large, 3.22e+04. This might indicate that there are \newline
  strong multicollinearity or other numerical problems.

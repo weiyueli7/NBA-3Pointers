@@ -7,6 +7,7 @@ import os
 from tqdm import tqdm
 import time
 import json
+import sys
 
 from data import *
 from model import *
@@ -60,6 +61,10 @@ def main():
     # Feature engineering
 
     df = feature_engineering(df)
+
+    print(list(df.columns))
+
+    # sys.exit()
 
     print("Summary Statistics for all players: \n")
     ss = df[['3PPerMP', 'PTSPerMP', 'TRBPerMP', 'ASTPerMP', 'PFPerMP', 'STLPerMP']].describe().to_latex()

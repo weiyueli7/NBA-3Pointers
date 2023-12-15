@@ -1,10 +1,13 @@
 {
     "independent_vars": [
         "GS", "3PPerMP", "PTSPerMP", "TRBPerMP", "ASTPerMP", "PFPerMP", "STLPerMP",
+        "Trend", "3PPerMPxTrend",
         "position_PG", "position_SG", "position_SF", "position_PF", 
+        "3PPerMPxPosition_PF", "3PPerMPxPosition_PG", "3PPerMPxPosition_SF", 
+        "3PPerMPxPosition_SG", "Position_PFxTrend", "Position_PGxTrend", 
+        "Position_SFxTrend", "Position_SGxTrend",
         "3PPerMPxPosition_PFxTrend", "3PPerMPxPosition_PGxTrend",
-        "3PPerMPxPosition_SFxTrend", "3PPerMPxPosition_SGxTrend",
-        "3PPerMPxTrend", "Trend"
+        "3PPerMPxPosition_SFxTrend", "3PPerMPxPosition_SGxTrend"
     ],
     "dependent_var": "next_year_salary"
 }

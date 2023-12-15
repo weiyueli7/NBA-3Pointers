@@ -170,6 +170,12 @@ def feature_engineering(df):
 
     for position in ['PF', 'PG', 'SF', 'SG']:
         df[f'3PPerMPxPosition_{position}xTrend'] = df.loc[:, '3PPerMP'] * df.loc[:, f'position_{position}'] * df.loc[:, 'Trend']
+    for position in ['PF', 'PG', 'SF', 'SG']:
+        df[f'3PPerMPxPosition_{position}'] = df.loc[:, '3PPerMP'] * df.loc[:, f'position_{position}']
+    for position in ['PF', 'PG', 'SF', 'SG']:
+        df[f'Position_{position}xTrend'] = df.loc[:, f'position_{position}'] * df.loc[:, 'Trend']
+
+    
 
     df['3PPerMPxTrend'] = df['3PPerMP'] * df['Trend']
 
