@@ -8,7 +8,7 @@ def viz_average_salary(df):
 
     os.makedirs('results/figures', exist_ok=True)
 
-    seasonal_salary_mean = df.groupby('Season')['salary'].mean()
+    seasonal_salary_mean = df.groupby('Season')['salary'].mean() * 100
 
     fig, ax = plt.subplots(figsize=(10, 6))
 
@@ -17,9 +17,9 @@ def viz_average_salary(df):
     ax.set_xticks(range(2000, 2023, 1))
     ax.set_xticklabels(range(2000, 2023, 1), rotation=45)
 
-    ax.set_title("Average Salary in Thousands by Season", fontsize=16)
+    ax.set_title("Average Salary in Thousands of USD by Season", fontsize=16)
     ax.set_xlabel('Season', fontsize=14)
-    ax.set_ylabel('Salary in Thousands in 2023 Dollars', fontsize=14)
+    ax.set_ylabel('Salary in Thousands in 2022 Dollars', fontsize=14)
 
     ax.grid(True, linestyle='--', alpha=0.6)
 

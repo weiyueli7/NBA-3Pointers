@@ -123,9 +123,9 @@ def process_hoopshype_salary(sea):
     cur_year['name'] = cur_year['Player']
     cur_year['season'] = sea
     if sea == 2023:
-        cur_year['salary'] = cur_year[f'{sea}/{str(sea+1)[-2:]}'].str.strip("$").str.replace(',', '').astype(float) / 1_000
+        cur_year['salary'] = cur_year[f'{sea}/{str(sea+1)[-2:]}'].str.strip("$").str.replace(',', '').astype(float) / 100_000
     else:
-        cur_year['salary'] = cur_year[f'{sea}/{str(sea+1)[-2:]}(*)'].str.strip("$").str.replace(',', '').astype(float) / 1_000
+        cur_year['salary'] = cur_year[f'{sea}/{str(sea+1)[-2:]}(*)'].str.strip("$").str.replace(',', '').astype(float) / 100_000
     cur_year['position'] = ''
     cur_year = cur_year[['name', 'position', 'salary', 'season']]
     return cur_year
