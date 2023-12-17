@@ -19,7 +19,7 @@ def viz_average_salary(df):
 
     ax.set_title("Average Salary in Thousands of USD by Season", fontsize=16)
     ax.set_xlabel('Season', fontsize=14)
-    ax.set_ylabel('Salary in Thousands in 2022 Dollars', fontsize=14)
+    ax.set_ylabel('Salary in Thousands in 2023 Dollars', fontsize=14)
 
     ax.grid(True, linestyle='--', alpha=0.6)
 
