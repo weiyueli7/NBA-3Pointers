@@ -1,6 +1,6 @@
 # NBA Players Salaries: The Impact of 3-Point Shooting
 
-Explore the presentation [here](https://docs.google.com/presentation/d/1P1KvWU4fqYWyi8WHpxwmTxv_ki-IVpbAMuxcHoqxYD8/edit?usp=sharing)
+Explore the presentation [here](https://docs.google.com/presentation/d/1P1KvWU4fqYWyi8WHpxwmTxv_ki-IVpbAMuxcHoqxYD8/edit?usp=sharing). The final paper is selected as a standout research paper from prior years and is accessible at [here](https://sites.google.com/site/ec191cullen/prior-papers?authuser=0).
 
 ## Introduction
 
