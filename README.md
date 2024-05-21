@@ -23,7 +23,7 @@ pip install -r requirements.txt
 To execute the regression models and generate visualizations, use:
 
 ```bash
-pythone main.py
+python main.py
 ```
 
 For a detailed guide on `main.py`, including available arguments, use:
